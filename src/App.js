@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import App_calendar from "./components/App_calendar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>SR BENEFIT SPECIALIST: DANIELLE THOMAS</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="#" // update and add function later
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Contact Now
         </a>
       </header>
+      <body className="App-body" />
+      <App_calendar />
+      {/* add reviews */}
+      {/* add lead form */}
+      <footer className="App-footer" />
     </div>
   );
 }
 
 export default App;
+
+// remake header, body, and footer into separate components
